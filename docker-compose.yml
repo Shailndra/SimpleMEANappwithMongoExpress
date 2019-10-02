@@ -2,13 +2,13 @@ version: '3.7'   # docker-compose version
 services:
   angular: #angularApp
    container_name: angularappdocker
-   build: '/home/shailendra/meanApp/angular'
+   build: '/home/shailendra/newfolder/SimpleMEANappwithMongoExpress/angular'
    ports:
      - "4200:4200"
 
   nodejs: #nodejsapp
    container_name: nodejsappdocker
-   build: '/home/shailendra/meanApp/dockerizedNode'
+   build: '/home/shailendra/newfolder/SimpleMEANappwithMongoExpress/dockerizedNode'
    ports:
      - "3000:3000"
 
